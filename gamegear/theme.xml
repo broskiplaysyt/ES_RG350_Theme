@@ -9,16 +9,8 @@
 			<pos>0.0 0.0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>cf582a</color>
+			<color>383f4a</color>
 			<path>./../art/systemback.png</path>
-		</image>
-		
-		<image name="console_overlay" extra="true">
-			<tile>false</tile>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.7 0.7</maxSize>
-			<path>./console.png</path>
 		</image>
 		
 		<image name="logo">
@@ -30,6 +22,23 @@
 			<iconColor>ffffff</iconColor>
 		</helpsystem>
 		
+		<image name="bbackgroundLogo" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>d2ccc9</color>
+			<path>./../art/systemfront.png</path>
+		</image>
+		
+		<image name="console_overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./console.png</path>
+		</image>
+		
 	</view>
 
 	<view name="basic, detailed">
@@ -38,7 +47,7 @@
 	<view name="basic">
 
 		<image name="logo">
-			<path>./logo.png</path>
+			<path>./logo2.png</path>
 			<pos>0.5 0.103</pos>
 			<maxSize>0.315 0.126</maxSize>
 			<origin>0.5 0.5</origin>
@@ -49,7 +58,7 @@
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>cf582a</color>
+			<color>383f4a</color>
 			<path>./../art/systemback.png</path>
 		</image>
 
@@ -67,7 +76,7 @@
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<fontSize>0.04</fontSize>
-			<selectorColor>0099ff</selectorColor>
+			<selectorColor>383f4a</selectorColor>
 			<selectedColor>FFFFFF90</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>871F78</secondaryColor>
@@ -78,9 +87,17 @@
 
 	<view name="detailed">
 	
+		<image name="header" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./header.png</path>
+		</image>
+	
 		<image name="logo">
-			<path>./logo.png</path>
-			<pos>0.274 0.134</pos>
+			<path>./logo2.png</path>
+			<pos>0.274 0.130</pos>
 			<maxSize>0.418 0.115</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
@@ -90,7 +107,7 @@
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>cf582a</color>
+			<color>383f4a</color>
 			<path>./../art/background.png</path>
 		</image>
 
@@ -98,7 +115,7 @@
 			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<color>0099ff</color>
+			<color>d2ccc9</color>
 			<size>1 1</size>
 			<path>./../art/border.png</path>
 		</image>		
@@ -109,13 +126,12 @@
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<fontSize>0.035</fontSize>
-			<selectorColor>0099ff</selectorColor>
+			<selectorColor>383f4a</selectorColor>
 			<selectedColor>FFFFFF90</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>871F78</secondaryColor>
 			<forceUppercase>0</forceUppercase>
 		</textlist>
-		
 
 		<image name="Bottom Console Image" extra="false">
 			<tile>false</tile>
@@ -127,14 +143,14 @@
 
 		<datetime name="md_releasedate">
 			<size>0.368 0.204</size>
-			<pos>0.790 0.530</pos>
+			<pos>0.788 0.531</pos>
 		</datetime>
 		
 		<text name="md_lbl_releasedate" extra="true">
 			<text>REL</text>
 			<forceUppercase>0</forceUppercase>
 			<size>0.368 0.204</size>
-			<pos>0.722 0.530</pos>
+			<pos>0.721 0.531</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -144,7 +160,7 @@
 		<text name="md_players" extra="true">
 			<forceUppercase>0</forceUppercase>
 			<size>0.368 0.204</size>
-			<pos>0.471 0.530</pos>
+			<pos>0.469 0.531</pos>
 			<color>ffffff</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -155,7 +171,7 @@
 			<text>PLY</text>
 			<forceUppercase>0</forceUppercase>
 			<size>0.368 0.204</size>
-			<pos>0.564 0.530</pos>
+			<pos>0.560 0.531</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -164,8 +180,8 @@
 				
 		<text name="md_genre" extra="true">
 			<forceUppercase>0</forceUppercase>
-			<size>0.368 0.290</size>
-			<pos>0.635 0.546</pos>
+			<size>0.368 0.294</size>
+			<pos>0.631 0.548</pos>
 			<color>ffffff</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -175,8 +191,8 @@
 		<text name="md_lbl_genre" extra="true">
 			<text>GEN</text>
 			<forceUppercase>0</forceUppercase>
-			<size>0.368 0.290</size>
-			<pos>0.564 0.546</pos>
+			<size>0.368 0.294</size>
+			<pos>0.560 0.548</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -186,7 +202,7 @@
 		<text name="md_developer" extra="true">
 			<forceUppercase>0</forceUppercase>
 			<size>0.368 0.294</size>
-			<pos>0.635 0.610</pos>
+			<pos>0.631 0.611</pos>
 			<color>ffffff</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -196,8 +212,8 @@
 		<text name="md_lbl_developer" extra="true">
 			<text>DEV</text>
 			<forceUppercase>0</forceUppercase>
-			<size>0.368 0.290</size>
-			<pos>0.564 0.610</pos>
+			<size>0.368 0.294</size>
+			<pos>0.560 0.611</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -206,8 +222,8 @@
 		
 		<text name="md_publisher" extra="true">
 			<forceUppercase>0</forceUppercase>
-			<size>0.368 0.290</size>
-			<pos>0.635 0.672</pos>
+			<size>0.368 0.294</size>
+			<pos>0.631 0.673</pos>
 			<color>ffffff</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -217,29 +233,27 @@
 		<text name="md_lbl_publisher" extra="true">
 			<text>PUB</text>
 			<forceUppercase>0</forceUppercase>
-			<size>0.368 0.290</size>
-			<pos>0.564 0.672</pos>
+			<size>0.368 0.294</size>
+			<pos>0.560 0.673</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 			<alignment>left</alignment>
 		</text>
 							
-		<text name="md_playcount" extra="true">
-			<forceUppercase>0</forceUppercase>
+		<datetime name="md_lastplayed">
 			<size>0.368 0.290</size>
-			<pos>0.613 0.737</pos>
+			<pos>0.709 0.741</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
-			<fontSize>0.034</fontSize>
-			<alignment>center</alignment>
-		</text>
+			<fontSize>0.035</fontSize>
+		</datetime>
 		
-		<text name="md_lbl_playcountr" extra="true">
+		<text name="md_lbl_lastplayed" extra="true">
 			<text>PLC</text>
 			<forceUppercase>0</forceUppercase>
 			<size>0.368 0.290</size>
-			<pos>0.709 0.737</pos>
+			<pos>0.642 0.741</pos>
 			<color>FFFFFF</color>
 			<fontPath>./../art/font.ttf</fontPath>
 			<fontSize>0.035</fontSize>

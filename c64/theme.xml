@@ -9,7 +9,7 @@
 			<pos>0.0 0.0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>00a0e8</color>
+			<color>008aff</color>
 			<path>./../art/systemback.png</path>
 		</image>
 		
@@ -49,7 +49,7 @@
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>00a0e8</color>
+			<color>008aff</color>
 			<path>./../art/systemback.png</path>
 		</image>
 
@@ -90,7 +90,7 @@
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>00a0e8</color>
+			<color>008aff</color>
 			<path>./../art/background.png</path>
 		</image>
 		

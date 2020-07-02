@@ -9,7 +9,7 @@
 			<pos>0.0 0.0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>44a634</color>
+			<color>538117</color>
 			<path>./../art/systemback.png</path>
 		</image>
 		
@@ -58,7 +58,7 @@
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>44a634</color>
+			<color>538117</color>
 			<path>./../art/systemback.png</path>
 		</image>
 
@@ -76,7 +76,7 @@
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<fontSize>0.04</fontSize>
-			<selectorColor>44a634</selectorColor>
+			<selectorColor>538117</selectorColor>
 			<selectedColor>FFFFFF90</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>871F78</secondaryColor>
@@ -94,7 +94,7 @@
 			<size>1 1</size>
 			<path>./header.png</path>
 		</image>
-	
+		
 		<image name="logo">
 			<path>./logo.png</path>
 			<pos>0.274 0.130</pos>
@@ -107,7 +107,7 @@
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<color>44a634</color>
+			<color>538117</color>
 			<path>./../art/background.png</path>
 		</image>
 
@@ -126,7 +126,7 @@
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<fontSize>0.035</fontSize>
-			<selectorColor>44a634</selectorColor>
+			<selectorColor>538117</selectorColor>
 			<selectedColor>FFFFFF90</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>871F78</secondaryColor>
