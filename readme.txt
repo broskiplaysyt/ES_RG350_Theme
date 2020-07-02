@@ -1,7 +1,7 @@
 ES RG350 THEME
 Theme by Voilola based on "Pixel" by Rookervik
 Almost all the logos and console images created by Ruckage and 1 made by BroskiPlays
-Version 1.0.1
+Version 1.0.2
 07/02/2020
 
 This theme is for Emulation Station, optimized for the resolution of RG350.
@@ -20,7 +20,7 @@ I hope someone can finish it, expand it and improve it.
 At the moment there are very few systems supported by this theme. To understand how the theme works, there are two PSD template files in the /art folder: TEMP_System_In and TEMP_System_Out.
 The structure is not properly optimized for time reasons (it could be a bit tricky).
 
-SYSTEMS SUPPORTED:
+24 SYSTEMS SUPPORTED:
 
 Atari 2600
 Atari 5200
@@ -34,10 +34,15 @@ PC Engine
 Sega Master System
 Sega Genesis
 Sega 32X
+Sega Game Gear
 Playstation
 Nintendo 64
 Neo Geo Pocket
 Neo Geo Pocket Color
+Ports
+Commodore 64
+Wonderswan
+Wonderswan Color
 
 ARCADE:
 
